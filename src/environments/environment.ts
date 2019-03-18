@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  contentful: {
+    deliveryUrl: 'cdn.contentful.com',
+    previewUrl: 'preview.contentful.com',
+    webappUrl: 'https://app.contentful.com',
+    environment: 'life-money-dev',
+    space: '',
+    deliveryToken: '',
+    previewToken: ''
+  }
 };
 
 /*
